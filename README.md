@@ -11,6 +11,7 @@
 - Please submit this homework to Gradescope.
 - Submit the code, as well as a report containing the plots and discussion. Also include a README, along with instructions to run your code.
 - This homework is to be done in teams of up to 3.
+- If you require compute, you can try using Google Colab, or use Hyak via the [Research Computing Club](https://depts.washington.edu/uwrcc/). Please reach out to the TAs if compute is a bottleneck for you.
 - List every person with whom you discussed any problem in any depth, and every reference (outside of our course slides, lectures, and textbook) that you used.
 - You may spend an arbitrary amount of time discussing and working out a solution with your listed collaborators, but **do not take notes, photos, or other artifacts of your collaboration**. Erase the board you were working on, and once you're alone, write up your answers yourself.
 - The homework problems have been carefully chosen for their pedagogical value and hence might be similar or identical to those given out in similar courses at UW or other schools. Using any pre-existing solutions from these sources, from the Web or other textbooks constitutes a violation of the academic integrity expected of you and is strictly prohibited.
@@ -25,7 +26,7 @@ The goal of this homework is to give you hands-on experience developing modern m
 
 ## Background and Pre-requisites
 
-We will use a simple implementation of a transformer model for this assignment, available [here](#). The implementation is adapted from Andrej Karpathy's [nano-GPT project](https://github.com/karpathy/nanoGPT/blob/master/model.py). Most of this assignment is designed to be done with low compute requirements.
+We will use a simple implementation of a transformer model for this assignment, available [here](https://github.com/SewoongLab/cs-493s-hw2/blob/main/model.py). The implementation is adapted from Andrej Karpathy's [nano-GPT project](https://github.com/karpathy/nanoGPT/blob/master/model.py). Most of this assignment is designed to be done with low compute requirements.
 
 ---
 
