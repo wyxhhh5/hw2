@@ -10,7 +10,7 @@
 
 - Please submit this homework to Gradescope.
 - Submit the code, as well as a report containing the plots and discussion. Also include a README, along with instructions to run your code.
-- This homework is to be done in teams of up to 3.
+- This homework is to be done in teams of up to 4.
 - If you require compute, you can try using Google Colab, or use Hyak via the [Research Computing Club](https://depts.washington.edu/uwrcc/). Please reach out to the TAs if compute is a bottleneck for you.
 - List every person with whom you discussed any problem in any depth, and every reference (outside of our course slides, lectures, and textbook) that you used.
 - You may spend an arbitrary amount of time discussing and working out a solution with your listed collaborators, but **do not take notes, photos, or other artifacts of your collaboration**. Erase the board you were working on, and once you're alone, write up your answers yourself.
