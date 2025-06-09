@@ -7,11 +7,13 @@ from model import GPT, GPTConfig
 def sample(model: GPT, idx: torch.Tensor, length: int, stoi: dict[str, int], itos: dict[int, str]) -> str:
     device = idx.device
     model.eval()
-    for _ in range(length):
-        logits = model(idx)[-1]
-        probs = torch.softmax(logits, dim=-1)
-        next_id = torch.multinomial(probs, num_samples=1)
-        idx = torch.cat([idx, next_id], dim=0)
+    with torch.no_grad():
+        for _ in range(length):
+            idx_cond = idx[-model.config.block_size:]
+            logits = model(idx_cond.unsqueeze(0))[0, -1]
+            probs = torch.softmax(logits, dim=-1)
+            next_id = torch.multinomial(probs, num_samples=1)
+            idx = torch.cat([idx, next_id], dim=0)
     text = "".join(itos[int(i)] for i in idx.tolist())
     return text
 
